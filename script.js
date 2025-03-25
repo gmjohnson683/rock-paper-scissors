@@ -1,6 +1,11 @@
 // Pseudocode Section
 
-// Line 1: When a user inputs a text of rock, paper, or scissors
+// Line 1: Record the current scores of the user and the computer
+
+let humanScore = 0;
+let computerScore = 0;
+
+// Line 2: When a user inputs a text of rock, paper, or scissors
 
 function getHumanChoice() {
     let userResponse = prompt('Which will you be choosing? Rock, paper, or scissors?');
@@ -11,7 +16,7 @@ function getHumanChoice() {
 console.log( getHumanChoice() );
 
 
-// Line 2: A random text of rock, paper, or scissors will be chosen for the computer
+// Line 3: A random text of rock, paper, or scissors will be chosen for the computer
 
 function getComputerChoice(randomNumber) {
     if(randomNumber <= 33) {
@@ -29,12 +34,12 @@ console.log( randomNumber );
 const computerChoice = getComputerChoice(randomNumber);
 console.log(computerChoice);
 
-// Line 3: If the user chose rock and the computer chose scissors, then the display will show "User won!"
-// Line 4: If the user chose scissors and the computer chose paper, then the display will show "User won!"
-// Line 5: If the user chose paper and the computer chose rock, then the display will show "User won!"
-// Line 6: If the user chose rock and the computer chose rock, then the display will show "It is a draw!"
-// Line 7: If the user chose scissors and the computer chose scissors, then the display will show "It is a draw!"
-// Line 8: If the user chose paper and the computer chose paper, then the display will show "It is a draw!"
-// Line 9: If the user chose rock and the computer chose paper, then the display will show "Computer won!"
-// Line 10: If the user chose scissors and the computer chose rock, then the display will show "Computer won!"
-// Line 11: If the user chose paper and the computer chose scissors, then the display will show "Computer won!"
+// Line 4: If the user chose rock and the computer chose scissors, then the display will show "User won!"
+// Line 5: If the user chose scissors and the computer chose paper, then the display will show "User won!"
+// Line 6: If the user chose paper and the computer chose rock, then the display will show "User won!"
+// Line 7: If the user chose rock and the computer chose rock, then the display will show "It is a draw!"
+// Line 8: If the user chose scissors and the computer chose scissors, then the display will show "It is a draw!"
+// Line 9: If the user chose paper and the computer chose paper, then the display will show "It is a draw!"
+// Line 10: If the user chose rock and the computer chose paper, then the display will show "Computer won!"
+// Line 11: If the user chose scissors and the computer chose rock, then the display will show "Computer won!"
+// Line 12: If the user chose paper and the computer chose scissors, then the display will show "Computer won!"
