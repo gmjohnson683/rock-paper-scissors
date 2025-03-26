@@ -38,52 +38,76 @@ console.log(computerChoice);
 
 if(humanChoice.toLowerCase() == 'rock' && computerChoice == 'scissors') {
     console.log('Rock beats scissors! The user has won this round!');
+    humanScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 5: If the user chose scissors and the computer chose paper, then the display will show "User won!"
 
 if(humanChoice.toLowerCase() == 'scissors' && computerChoice == 'paper') {
     console.log('Scissors beat paper! The user has won this round!');
+    humanScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 6: If the user chose paper and the computer chose rock, then the display will show "User won!"
 
 if(humanChoice.toLowerCase() == 'paper' && computerChoice == 'rock') {
     console.log('Paper beats rock! The user has won this round!');
+    humanScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 7: If the user chose rock and the computer chose rock, then the display will show "It is a draw!"
 
 if(humanChoice.toLowerCase() == 'rock' && computerChoice == 'rock') {
-    console.log('Rock neutralizes rock! It is a draw!')
+    console.log('Rock neutralizes rock! It is a draw!');
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 8: If the user chose scissors and the computer chose scissors, then the display will show "It is a draw!"
 
 if(humanChoice.toLowerCase() == 'scissors' && computerChoice == 'scissors') {
-    console.log('Scissors neutralize scissors! It is a draw!')
+    console.log('Scissors neutralize scissors! It is a draw!');
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 9: If the user chose paper and the computer chose paper, then the display will show "It is a draw!"
 
 if(humanChoice.toLowerCase() == 'paper' && computerChoice == 'paper') {
-    console.log('Paper neutralizes paper! It is a draw!')
+    console.log('Paper neutralizes paper! It is a draw!');
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 10: If the user chose rock and the computer chose paper, then the display will show "Computer won!"
 
 if(humanChoice.toLowerCase() == 'rock' && computerChoice == 'paper') {
-    console.log('Paper beats rock! The computer has won this round!')
+    console.log('Paper beats rock! The computer has won this round!');
+    computerScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 11: If the user chose scissors and the computer chose rock, then the display will show "Computer won!"
 
 if(humanChoice.toLowerCase() == 'scissors' && computerChoice == 'rock') {
-    console.log('Rock beats scissors! The computer has won this round!')
+    console.log('Rock beats scissors! The computer has won this round!');
+    computerScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
 
 // Line 12: If the user chose paper and the computer chose scissors, then the display will show "Computer won!"
 
 if(humanChoice.toLowerCase() == 'paper' && computerChoice == 'scissors') {
-    console.log('Scissors beat paper! The computer has won this round!')
+    console.log('Scissors beat paper! The computer has won this round!');
+    computerScore++;
+    console.log(humanScore);
+    console.log(computerScore);
 }
