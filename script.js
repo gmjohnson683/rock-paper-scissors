@@ -56,8 +56,7 @@ function playGame() {
         }
     }
 
-    // Round 1 of the "rock, paper, scissors" game
-    
+    // Round 1 of the "rock, paper, scissors" game    
     let humanSelection = getHumanChoice();
     console.log('The user has selected ' + humanSelection + '.');
 
@@ -67,7 +66,6 @@ function playGame() {
     playRound(humanSelection, computerSelection);
 
     // Round 2 of the "rock, paper, scissors" game
-
     humanSelection = getHumanChoice();
     console.log('The user has selected ' + humanSelection + '.');
 
@@ -77,7 +75,6 @@ function playGame() {
     playRound(humanSelection, computerSelection);
 
     // Round 3 of the "rock, paper, scissors" game
-
     humanSelection = getHumanChoice();
     console.log('The user has selected ' + humanSelection + '.');
 
@@ -87,7 +84,6 @@ function playGame() {
     playRound(humanSelection, computerSelection);
     
     // Round 4 of the "rock, paper, scissors" game
-
     humanSelection = getHumanChoice();
     console.log('The user has selected ' + humanSelection + '.');
 
@@ -97,7 +93,6 @@ function playGame() {
     playRound(humanSelection, computerSelection);
 
     // Round 5 of the "rock, paper, scissors" game
-
     humanSelection = getHumanChoice();
     console.log('The user has selected ' + humanSelection + '.');
 
