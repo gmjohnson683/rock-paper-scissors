@@ -112,15 +112,15 @@ function playGame() {
 
     // Based on the results from the last round of the game, an announcement of the winner will shown in the browser's console
     if(humanScore > computerScore) {
-        console.log('The user has won the game! Better luck next time computer!')
+        console.log('The user has won the game! Better luck next time computer!');
     } else if (humanScore < computerScore) {
-        console.log('The computer has won the game! Better luck next time user!')
+        console.log('The computer has won the game! Better luck next time user!');
     } else if (humanScore == computerScore) {
-        console.log('A draw?!? How is that even possible?')
+        console.log('A draw?!? How is that even possible?');
     } else {
-        console.log('Seems to be an error with the code boss.')
+        console.log('Seems to be an error with the code boss.');
     }
 }
 
 // Invoke the function to initiate the game of "rock, paper, scissors"
-playGame()
+playGame();
